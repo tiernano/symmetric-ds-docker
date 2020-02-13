@@ -1,0 +1,16 @@
+---
+version: "2"
+services:
+    symetricsds:
+        image: tiernano/symmetricds
+        container_name: symmetricds
+        volumes: 
+            - ./conf:/opt/symmetric-ds/conf
+            - ./tmp:/opt/symmetric-ds/tmp
+            - ./engines:/opt/symmetric-ds/engines
+            - ./security://opt/symmetric-ds/security
+
+        ports:
+             - 31415:31415
+             - 31416:31416
+        restart: unless-stopped
