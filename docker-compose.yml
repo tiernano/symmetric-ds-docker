@@ -8,7 +8,8 @@ services:
             - ./conf:/opt/symmetric-ds/conf
             - ./tmp:/opt/symmetric-ds/tmp
             - ./engines:/opt/symmetric-ds/engines
-            - ./security://opt/symmetric-ds/security
+            - ./security:/opt/symmetric-ds/security
+            - ./logs://opt/symmetric-ds/logs
 
         ports:
              - 31415:31415
