@@ -17,7 +17,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 RUN apk add --no-cache --upgrade curl
 RUN mkdir /opt/
 
-RUN curl -L -o /opt/symmetric-ds.zip https://downloads.sourceforge.net/project/symmetricds/symmetricds/symmetricds-3.12/symmetric-server-3.12.4.zip \
+RUN curl -L -o /opt/symmetric-ds.zip https://downloads.sourceforge.net/project/symmetricds/symmetricds/symmetricds-3.12/symmetric-server-3.12.8.zip \
 && unzip /opt/symmetric-ds.zip \
 && rm -f /opt/symmetric-ds.zip \
 && mv symmetric-server* /opt/symmetric-ds
