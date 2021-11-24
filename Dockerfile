@@ -7,10 +7,10 @@ ARG VERSION
 LABEL org.label-schema.build-date=$BUILD_DATE \
         org.label-schema.name="symmetricds Docker" \
         org.label-schema.description="symmetricds docker instance" \
-        org.label-schema.url="https://tiernanotoole.ie" \
+        org.label-schema.url="https://www.tiernanotoole.ie" \
         org.label-schema.vcs-ref=$VCS_REF \
-        org.label-schema.vcs-url="https://github.com/tiernano/symetric-ds-docker" \
-        org.label-schema.vendor="symetricsds" \
+        org.label-schema.vcs-url="https://github.com/tiernano/symmetric-ds-docker" \
+        org.label-schema.vendor="symmetricds" \
         org.label-schema.version=$VERSION \
         org.label-schema.schema-version="1.0"
 
